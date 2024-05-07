@@ -1,4 +1,4 @@
-countries = [{
+let countries = [{
     title: 'Australia',
     link: 'https://www.google.com/maps/@-25.350684,131.0463223,3a,75y,264.26h,94.34t/data=!3m8!1e1!3m6!1sAF1QipN34Kq9DNXau2fsEX2pXDLZfCICnWaQPku-7FQu!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipN34Kq9DNXau2fsEX2pXDLZfCICnWaQPku-7FQu%3Dw203-h100-k-no-pi-12.154341-ya290.7717-ro-0-fo100!7i10600!8i5300?entry=ttu',
     embed: 'https://www.google.com/maps/embed?pb=!4v1686332510022!6m8!1m7!1sCAoSLEFGMVFpcE4zNEtxOUROWGF1MmZzRVgycFhETFpmQ0lDbldhUVBrdS03RlF1!2m2!1d-25.35068396746521!2d131.0463222711639!3f264.26!4f4.340000000000003!5f0.7820865974627469'
