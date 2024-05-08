@@ -1,0 +1,14 @@
+function captchaLoop() {
+document.getElementsByClassName('captcha-refresh')[0].click();
+setTimeout(function() {
+captcha_url = document.getElementsByClassName("captcha-img")[0].src
+if (wanted_captcha != (captcha_url.slice((captcha_url.indexOf('captchas/')+9), (captcha_url.indexOf('captchas/')+14)))) {
+captchaLoop();
+}
+}, 1)
+}
+var wanted_captcha = window.prompt()
+if (wanted_captcha == null | wanted_captcha === '') {
+captchaLoop = function() {}
+}
+captchaLoop();
