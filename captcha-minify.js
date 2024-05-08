@@ -1,0 +1,1 @@
+function captchaLoop(){document.getElementsByClassName("captcha-refresh")[0].click(),setTimeout(function(){captcha_url=document.getElementsByClassName("captcha-img")[0].src,/\d/.test(captcha_url.slice(captcha_url.indexOf("captchas/")+9,captcha_url.indexOf("captchas/")+14))&&captchaLoop()},1)}captchaLoop();
