@@ -1,0 +1,1 @@
+function componentToHex(o){var e=o.toString(16);return 1==e.length?"0"+e:e}function rgbToHex(o,e,n){return"#"+componentToHex(o)+componentToHex(e)+componentToHex(n)}eval("var hex = rgbToHex"+document.getElementsByClassName("rand-color")[0].style.backgroundColor.slice(3)+";"),alert(hex);
