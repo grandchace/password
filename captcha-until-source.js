@@ -8,7 +8,7 @@ captchaLoop();
 }, 1)
 }
 var wanted_captcha = window.prompt("What captcha do you want? Click cancel or type nothing to stop trying.")
-if (wanted_captcha == null | wanted_captcha === '' | (wanted_captcha != null && (wanted_captcha.length !== 5))) {
+if (wanted_captcha == null || wanted_captcha === '' || (wanted_captcha != null && (wanted_captcha.length !== 5))) {
 captchaLoop = function() {}
 }
 captchaLoop();
