@@ -25,7 +25,7 @@ setTimeout(function() {
 }
 hexGoal = window.prompt("How much the numbers sum up to in the hex code. Enter nothing or press cancel to stop trying.")
 if (hexGoal == null || hexGoal === '') {
-    hexLoop() = function(){};
+    hexLoop = function(){};
 } else {
     document.getElementsByClassName('refresh')[0].click();
     hexLoop()
