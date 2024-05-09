@@ -1,3 +1,4 @@
+    document.getElementsByClassName('refresh')[0].click();
 function hexLoop() {
     eval("var hex = rgbToHex" + document.getElementsByClassName("rand-color")[0].style.backgroundColor.slice(3) + ";");
 if (/\d/.test(hex)) {
