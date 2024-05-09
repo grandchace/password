@@ -1,4 +1,4 @@
-
+hexLoop = function(){};
 function sumDigitsFromString(str) {  var nums = [];
   var sum = 0;
 
@@ -24,9 +24,7 @@ setTimeout(function() {
 } else {alert(hex)}
 }
 hexGoal = window.prompt("How much the numbers sum up to in the hex code. Enter nothing or press cancel to stop trying.")
-if (hexGoal == null || hexGoal === '') {
-    hexLoop = function(){};
-} else {
+if (!(hexGoal == null || hexGoal === '')) {
     document.getElementsByClassName('refresh')[0].click();
     hexLoop()
 }
