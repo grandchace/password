@@ -1,4 +1,4 @@
-var newTab = window.open()
+var newTab = window.open("about:blank", "", "width=600,height=425")
 
 newTab.window.document.getElementsByTagName("html")[0].setAttribute("lang","en");
 newTab.window.document.getElementsByTagName("html")[0].setAttribute("class","password-game-body");
