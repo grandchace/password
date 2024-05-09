@@ -23,7 +23,7 @@ setTimeout(function() {
 }
 }
 
-hexGoal = input("How much the numbers sum up to in the hex code. Enter nothing or press cancel to stop trying.")
+hexGoal = window.prompt("How much the numbers sum up to in the hex code. Enter nothing or press cancel to stop trying.")
 if (wanted_captcha == null || wanted_captcha === '') {
 hexLoop() = function(){};
 }
